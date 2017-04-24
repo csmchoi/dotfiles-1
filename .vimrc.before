@@ -1,0 +1,8 @@
+"" Theming
+colo desert
+syntax on
+set guifont=Menlo:h14
+
+"" Disable sound on mvim
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
