@@ -83,6 +83,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias add="ga"
+alias s="gst"
+alias commit="git commit"
+alias diff="git diff"
+alias push="gp"
+
 function c() {
    cd ~/Projects/$1;
  }
