@@ -88,6 +88,8 @@ alias s="gst"
 alias commit="git commit"
 alias diff="git diff"
 alias push="gp"
+alias co="gco"
+alias b="gb"
 
 function c() {
    cd ~/Projects/$1;
