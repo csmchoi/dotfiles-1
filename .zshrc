@@ -1,8 +1,11 @@
-# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+# If you come from bash you might have to change your $PATH.
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/jchay/.oh-my-zsh
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -90,6 +93,8 @@ alias diff="git diff"
 alias push="gp"
 alias co="gco"
 alias b="gb"
+alias pull="git pull"
+alias merge="git merge"
 
 function c() {
    cd ~/Projects/$1;
@@ -103,4 +108,5 @@ function _c () {
 compdef _c c
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH=~/Library/Python/3.4/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin"
