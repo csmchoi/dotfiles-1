@@ -1,0 +1,1 @@
+let NERDTreeIgnore=['dist', 'tmp', 'node_modules', 'bower_components']

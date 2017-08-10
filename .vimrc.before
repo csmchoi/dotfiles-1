@@ -9,3 +9,6 @@ autocmd GUIEnter * set visualbell t_vb=
 
 "" Remove trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
+
+let NERDTreeShowHidden=1
+let NERDTreeIgnore=['tmp', 'node_modules', 'bower_components']
